@@ -193,7 +193,23 @@
       "Preventive Medicine Advocate",
       "Content Creator"
     ],
+    "roles": [
+      "Pre-clinical MBBS Student",
+      "Research Enthusiast",
+      "Healthcare Systems Thinker",
+      "Preventive Medicine Advocate",
+      "Content Creator"
+    ],
     "marquee": [
+      "NEET 2026 AIR 19202",
+      "Preventive > Reactive Healthcare",
+      "AI + Pathology Data",
+      "ABHA + Clinical Summaries",
+      "First Step Mentorship",
+      "Biotechnology & Genetics",
+      "Healthcare Education for India"
+    ],
+    "ticker": [
       "NEET 2026 AIR 19202",
       "Preventive > Reactive Healthcare",
       "AI + Pathology Data",
@@ -208,7 +224,11 @@
     "contactLede": "Whether you are a fellow student, researcher, doctor or builder working on preventive health — I’d love to connect.",
     "footerText": "Built with care for the future of Indian healthcare.",
     "pageTitle": "Shreyansh Sharma · Pre-clinical MBBS · Preventive Healthcare & AI",
-    "metaDescription": "Portfolio of Shreyansh Sharma — Pre-clinical MBBS student (NEET 2026 AIR 19202). Exploring preventive healthcare, precision medicine, biotechnology, genetics and AI for better systems in India."
+    "metaDescription": "Portfolio of Shreyansh Sharma — Pre-clinical MBBS student (NEET 2026 AIR 19202). Exploring preventive healthcare, precision medicine, biotechnology, genetics and AI for better systems in India.",
+    "sections": {
+      "manifestoQuote": "The best medicine is the one that prevents the disease from ever appearing.",
+      "manifestoAttribution": "— Shreyansh Sharma"
+    }
   },
   "timeline": [
     {

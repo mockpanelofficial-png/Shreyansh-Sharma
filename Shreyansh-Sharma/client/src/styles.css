@@ -879,6 +879,11 @@ header.scrolled{background:rgba(10,20,36,.82);backdrop-filter:blur(20px);-webkit
 [data-theme="light"] .hero .stats b{color:#101828}
 [data-theme="light"] .hero .stats small{color:#64748b}
 
+/* Keep the portfolio photo visible in the loading mark and keep the ticker moving. */
+.preloader-logo{background-image:url('/profile-photo.jpg');background-size:cover;background-position:center;object-fit:cover;font-size:0}
+.ticker div{width:max-content}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(calc(-100% + 100vw))}}
+
 @media(max-width:600px){
   .hero{padding-top:34px}
   .hero .profile .avatar{width:min(190px,60vw);margin-bottom:20px;border-width:4px}
