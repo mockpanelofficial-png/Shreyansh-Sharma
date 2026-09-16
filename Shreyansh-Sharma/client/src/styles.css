@@ -995,8 +995,8 @@ header.scrolled{background:rgba(10,20,36,.82);backdrop-filter:blur(20px);-webkit
 }
 
 /* Canonical premium glass surfaces: content should feel printed onto a raised object. */
-.snap-card,.feature,.card{background:linear-gradient(145deg,#111c31 0%,#080f1d 100%)!important;border:1px solid #31516f!important;box-shadow:0 2px 0 #74e8f755 inset,0 10px 18px #0009,0 25px 48px #0008,0 0 28px #16c9e51c!important}
-.snap-card::before,.feature::before,.card::before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(135deg,#ffffff12 0%,transparent 30%,transparent 70%,#22d3ee0b 100%);opacity:.9}
+.snap-card,.feature,.card{background:linear-gradient(145deg,#111c31 0%,#080f1d 100%)!important;border:1px solid transparent!important;background-clip:padding-box!important;box-shadow:0 2px 0 #74e8f755 inset,0 10px 18px #0009,0 25px 48px #0008,0 0 28px #16c9e51c!important}
+.snap-card::before,.feature::before,.card::before{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1px;pointer-events:none;background:linear-gradient(115deg,#08bce8,#1564d6 42%,#8c42e8 72%,#f08b18);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.95}
 .snap-card:hover,.feature:hover,.card:hover{border-color:#42dced!important;box-shadow:0 3px 0 #8af3ff88 inset,0 18px 30px #000b,0 34px 70px #0009,0 0 34px #22d3ee33!important}
 .snap-card h3,.snap-card p,.snap-card span,.feature h3,.feature p,.feature label,.card h3,.card p,.card label,.card small{position:relative;text-shadow:0 2px 10px #000b}
 .button,.social-link,.show-more-btn{border:1px solid #52dcec!important;box-shadow:0 2px 0 #b5f8ff88 inset,0 8px 16px #000b,0 0 24px #22d3ee2e!important;text-shadow:0 1px 7px #0008;transition:transform .22s ease,box-shadow .22s ease,filter .22s ease}
