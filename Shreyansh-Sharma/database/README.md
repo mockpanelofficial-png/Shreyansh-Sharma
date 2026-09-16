@@ -25,3 +25,13 @@ Also configure `ADMIN_USERNAME`, `ADMIN_PASSWORD`, and `JWT_SECRET` in Render. N
 4. Replace the placeholders and add it as the Render `MONGODB_URI` secret.
 
 Without `MONGODB_URI`, the app intentionally uses the local JSON files in `server/data` for development.
+
+## Separate Vercel frontend
+
+If the client is deployed separately on Vercel, set this Vercel environment variable before building:
+
+```env
+VITE_API_URL=https://shreyansh-sharma.onrender.com
+```
+
+Set Render `CLIENT_ORIGIN` to the exact Vercel frontend URL, or a comma-separated list containing it and the local URL, for example `https://your-site.vercel.app,http://localhost:5173`.

@@ -4,7 +4,10 @@ import{createPortal}from'react-dom';
 import{ArrowUpRight,X,Lock,Plus,Pencil,Trash2,LogOut,Upload,Save,ExternalLink,BookOpen,Trophy,BriefcaseBusiness,Users,Rocket,GraduationCap,Medal,FlaskConical,Lightbulb,BadgeCheck,HeartHandshake,Mail,Linkedin,Send,MapPin,Sun,Moon,Menu,Newspaper,Search,PenLine,ChevronDown,ChevronUp,ChevronLeft,ChevronRight,TrendingUp,Landmark,Wallet,Award,Network,Sparkles,Compass,LayoutDashboard,FileText,UserRound,Clock,ShieldCheck,Eye,Palette,Settings2}from'lucide-react';
 import'./styles.css';
 
-const api=async(path,options={})=>{const token=localStorage.getItem('ss-token');const r=await fetch('/api'+path,{...options,headers:{...(options.body instanceof FormData?{}:{'Content-Type':'application/json'}),...(token?{Authorization:'Bearer '+token}:{}),...options.headers}});const data=await r.json().catch(()=>({}));if(!r.ok)throw Error(data.message||'Request failed');return data};
+const configuredApiUrl=(import.meta.env.VITE_API_URL||'').trim().replace(/\/$/,'');
+const localHost=['localhost','127.0.0.1'].includes(window.location.hostname);
+const apiBase=configuredApiUrl||(localHost?'':'https://shreyansh-sharma.onrender.com');
+const api=async(path,options={})=>{const token=localStorage.getItem('ss-token');const r=await fetch(`${apiBase}/api${path}`,{...options,headers:{...(options.body instanceof FormData?{}:{'Content-Type':'application/json'}),...(token?{Authorization:'Bearer '+token}:{}),...options.headers}});const data=await r.json().catch(()=>({}));if(!r.ok)throw Error(data.message||'Request failed');return data};
 const blank=()=>({customId:crypto.randomUUID(),title:'',org:'',category:'Projects',date:'',summary:'',description:'',featured:false,proofs:[]});
 const categoryMeta={Research:[FlaskConical,'violet'],Competitions:[Trophy,'gold'],'Case Competitions':[Lightbulb,'blue'],Entrepreneurship:[Rocket,'orange'],Volunteering:[HeartHandshake,'rose'],Projects:[BadgeCheck,'cyan'],Education:[GraduationCap,'green'],Leadership:[Users,'indigo'],Internships:[BriefcaseBusiness,'slate'],Programs:[BookOpen,'purple'],Awards:[Medal,'amber'],Certifications:[BadgeCheck,'teal'],Media:[Newspaper,'cyan'],Writing:[PenLine,'blue']};
 function CategoryIcon({category}){const[Icon,tone]=categoryMeta[category]||[BookOpen,'violet'];return <span className={'category-icon '+tone}><Icon size={20}/></span>}
