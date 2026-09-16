@@ -1,0 +1,230 @@
+{
+  "items": [
+    {
+      "id": "neet",
+      "title": "NEET UG 2026 — AIR 19202",
+      "org": "National Testing Agency (NTA)",
+      "category": "Awards",
+      "date": "2026",
+      "summary": "Secured All India Rank 19202 in NEET UG 2026, qualifying for MBBS and beginning pre-clinical medical education.",
+      "description": "After rigorous preparation under intense pressure typical of medical entrance exams in India, achieved AIR 19202. This rank opened the door to pre-clinical MBBS studies and shaped a strong foundation in medical sciences, research mindset and healthcare systems thinking.",
+      "featured": true,
+      "proofs": [],
+      "customId": "neet"
+    },
+    {
+      "id": "preventive",
+      "title": "Preventive Healthcare & Precision Medicine Advocacy",
+      "org": "Independent Thought Leadership",
+      "category": "Writing",
+      "date": "2026",
+      "summary": "Published detailed LinkedIn analyses comparing preventive vs reactive healthcare, integrating AI predictive models and personalised plans for chronic disease prevention.",
+      "description": "Explored how increasing screen time and sedentary lifestyles raise risks of hypertension and diabetes. Advocated regular testing + Predictive AI models trained on pathological data to flag high-risk patients early. Proposed personalised health plans combining diet, lifestyle, supplements and minimal medication. Highlighted differences between Tier 1/2 (lifestyle) and Tier 3/Rural (education + access) India. Emphasised economic benefits, doctor retention and better quality of life.",
+      "featured": true,
+      "proofs": [],
+      "customId": "preventive"
+    },
+    {
+      "id": "abha",
+      "title": "ABHA ID + AI Clinical Summary Concept",
+      "org": "Healthcare Systems Innovation",
+      "category": "Projects",
+      "date": "2026",
+      "summary": "Proposed an AI tool that extracts concise, doctor-ready summaries from Ayushman Bharat Health Account (ABHA) records to improve continuity of care when patients change doctors.",
+      "description": "ABHA is a 14-digit unique health ID that stores prescriptions, lab reports, diet charts and special directions. Identified the gap when patients switch doctors and history is lost. Suggested an ethical AI layer that summarises ABHA data into an easy-to-read brief delivered at appointment time — saving patient time, improving care quality and creating organised datasets for medical AI training.",
+      "featured": true,
+      "proofs": [],
+      "customId": "abha"
+    },
+    {
+      "id": "mentorship",
+      "title": "First Step — Free NEET Mentorship Program",
+      "org": "Telegram Community",
+      "category": "Leadership",
+      "date": "2026",
+      "summary": "Launched a free mentorship program on Telegram sharing strategies to maximise NEET scores while protecting mental health, drawing from personal NEETard experience.",
+      "description": "Having lived the intense pressure of NEET preparation, created 'First Step' — a free Telegram-based mentorship initiative. Focuses on high-yield strategies, time management, mental health conservation and realistic goal setting for future aspirants.",
+      "featured": true,
+      "proofs": [],
+      "customId": "mentorship"
+    },
+    {
+      "id": "content",
+      "title": "Healthcare Content Creation Journey",
+      "org": "Instagram & LinkedIn",
+      "category": "Media",
+      "date": "2026",
+      "summary": "Started creating content documenting medical student life, preventive healthcare ideas, AI in medicine and personal growth. Posted first Instagram reel and short video projects.",
+      "description": "Treating content creation as a long-term learning journey and hobby. Documenting experiences, ideas on healthcare education, biotechnology, genetics and AI. Experimenting with storytelling through video shooting and editing. Aim to raise awareness and make complex healthcare concepts accessible.",
+      "featured": true,
+      "proofs": [],
+      "customId": "content"
+    },
+    {
+      "id": "reflection",
+      "title": "Reflections on Competition, Empathy & Social Media",
+      "org": "Personal Writing",
+      "category": "Writing",
+      "date": "2026",
+      "summary": "Published thoughtful pieces questioning 'healthy competition', the impact of social media on attention span, and the importance of empathy and interpersonal skills beyond exam ranks.",
+      "description": "After NEET results, reflected that life is not a competition. Critiqued over-emphasis on medals and ranks that can reduce empathy and storytelling ability. Analysed how social media (especially reels) shortens attention spans critical for deep medical study, and how smartphones actively demand attention rather than waiting to be used as tools.",
+      "featured": false,
+      "proofs": [],
+      "customId": "reflection"
+    },
+    {
+      "id": "research-interest",
+      "title": "Research Interests: Healthcare + AI + Genetics",
+      "org": "Ongoing",
+      "category": "Research",
+      "date": "2026–",
+      "summary": "Actively exploring the intersection of biotechnology, genetics, AI predictive models and preventive healthcare systems in the Indian context.",
+      "description": "Bullish on healthcare education and awareness. Focused on how predictive AI trained on pathological data can shift the system from reactive treatment to true prevention. Interested in ethical data use (via ABHA), personalised medicine and scalable education models for Tier 3 and rural India.",
+      "featured": true,
+      "proofs": [],
+      "customId": "research-interest"
+    }
+  ],
+  "site": {
+    "name": "Shreyansh Sharma",
+    "eyebrow": "Pre-clinical MBBS Student · Research Enthusiast",
+    "hero": "Building the future of <em>preventive healthcare</em> with AI.",
+    "lede": "Pre-clinical MBBS student (NEET 2026 AIR 19202) passionate about healthcare, biotechnology, genetics and AI. Exploring how predictive models and personalised plans can shift India from reactive to preventive medicine.",
+    "tagline": "Pre-clinical MBBS · NEET 2026 AIR 19202 · Healthcare · Biotechnology · Genetics · AI · Content Creator",
+    "email": "shreyansh.sharma@example.com",
+    "stat1v": "AIR 19k",
+    "stat1l": "NEET UG 2026",
+    "stat2v": "3+",
+    "stat2l": "Core Interests",
+    "stat3v": "100%",
+    "stat3l": "Preventive Focus",
+    "profileImage": "/profile-photo.jpg",
+    "linkedin": "https://www.linkedin.com/in/shreyansh-sharma",
+    "location": "Varanasi, Uttar Pradesh, India",
+    "school": "St. Xavier's Senior Secondary School, Varanasi · Pre-clinical MBBS",
+    "resumeUrl": "/resume.pdf",
+    "pressUrl": "",
+    "profileHeading": "From NEET ranks to healthcare systems thinking.<br/>Focused on prevention, precision & people.",
+    "profileLede": "A medical student who believes the best care is the one that prevents disease before it starts. Combining clinical education with AI, genetics and public-health awareness to design better systems for India.",
+    "interests": [
+      "Preventive Healthcare",
+      "Precision Medicine",
+      "Biotechnology",
+      "Genetics",
+      "Artificial Intelligence",
+      "Healthcare Education",
+      "ABHA & Digital Health",
+      "Content Creation"
+    ],
+    "profileCards": [
+      {
+        "id": "pc1",
+        "title": "Clinical Foundation",
+        "text": "Pre-clinical MBBS student building strong basics in anatomy, physiology and pathology while staying curious about systems-level healthcare.",
+        "icon": "book"
+      },
+      {
+        "id": "pc2",
+        "title": "AI & Predictive Health",
+        "text": "Exploring how models trained on pathological data can flag future risk of hypertension, diabetes and other chronic conditions early.",
+        "icon": "sparkles"
+      },
+      {
+        "id": "pc3",
+        "title": "Prevention over Cure",
+        "text": "Advocating lifestyle, diet, supplements and regular testing as the primary tools — medication only when truly required.",
+        "icon": "heart"
+      },
+      {
+        "id": "pc4",
+        "title": "Digital Health (ABHA)",
+        "text": "Interested in ethical AI that turns ABHA records into concise clinical summaries for better continuity of care.",
+        "icon": "shield"
+      },
+      {
+        "id": "pc5",
+        "title": "Education & Mentorship",
+        "text": "Running free NEET mentorship (First Step) and creating content to raise healthcare awareness among students and the public.",
+        "icon": "users"
+      },
+      {
+        "id": "pc6",
+        "title": "Storytelling & Reflection",
+        "text": "Writing about competition culture, social media’s impact on attention, and the need for empathy beyond ranks and medals.",
+        "icon": "pen"
+      }
+    ],
+    "skills": [
+      {
+        "id": "sk1",
+        "label": "Medical Fundamentals (Pre-clinical)",
+        "pct": 85
+      },
+      {
+        "id": "sk2",
+        "label": "Preventive & Precision Medicine Thinking",
+        "pct": 90
+      },
+      {
+        "id": "sk3",
+        "label": "AI Concepts in Healthcare",
+        "pct": 78
+      },
+      {
+        "id": "sk4",
+        "label": "Research & Analytical Writing",
+        "pct": 82
+      },
+      {
+        "id": "sk5",
+        "label": "Healthcare Systems & Policy Awareness",
+        "pct": 80
+      },
+      {
+        "id": "sk6",
+        "label": "Content Creation & Mentorship",
+        "pct": 75
+      }
+    ],
+    "heroRoles": [
+      "Pre-clinical MBBS Student",
+      "Research Enthusiast",
+      "Healthcare Systems Thinker",
+      "Preventive Medicine Advocate",
+      "Content Creator"
+    ],
+    "marquee": [
+      "NEET 2026 AIR 19202",
+      "Preventive > Reactive Healthcare",
+      "AI + Pathology Data",
+      "ABHA + Clinical Summaries",
+      "First Step Mentorship",
+      "Biotechnology & Genetics",
+      "Healthcare Education for India"
+    ],
+    "quote": "The best medicine is the one that prevents the disease from ever appearing.",
+    "quoteAuthor": "— Shreyansh Sharma",
+    "contactHeading": "Let’s talk healthcare, AI or medical education",
+    "contactLede": "Whether you are a fellow student, researcher, doctor or builder working on preventive health — I’d love to connect.",
+    "footerText": "Built with care for the future of Indian healthcare.",
+    "pageTitle": "Shreyansh Sharma · Pre-clinical MBBS · Preventive Healthcare & AI",
+    "metaDescription": "Portfolio of Shreyansh Sharma — Pre-clinical MBBS student (NEET 2026 AIR 19202). Exploring preventive healthcare, precision medicine, biotechnology, genetics and AI for better systems in India."
+  },
+  "timeline": [
+    {
+      "date": "2026",
+      "title": "NEET Success & Pre-clinical Journey Begins",
+      "text": "Secured AIR 19202 in NEET UG 2026. Started pre-clinical MBBS. Launched thought leadership on preventive healthcare, ABHA + AI concepts, and free NEET mentorship program 'First Step'."
+    },
+    {
+      "date": "2026",
+      "title": "Content Creation & Public Voice",
+      "text": "Began documenting ideas on LinkedIn and Instagram. First reel posted. Exploring storytelling through short videos while reflecting on competition culture and social media’s impact on deep focus."
+    },
+    {
+      "date": "Earlier",
+      "title": "School Foundation — St. Xavier’s, Varanasi",
+      "text": "Completed schooling at St. Xavier’s Senior Secondary School, Varanasi. Built discipline, curiosity and the academic drive that carried through the intense NEET preparation years."
+    }
+  ]
+}

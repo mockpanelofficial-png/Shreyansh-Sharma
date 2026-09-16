@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "1787388206395",
+    "name": "Rohit Demo",
+    "email": "rohit.demo@example.com",
+    "message": "Hello Karan! Testing the contact form.",
+    "read": false,
+    "createdAt": "2026-08-22T08:43:26.395Z"
+  },
+  {
+    "_id": "1787388110321",
+    "name": "Karan Test",
+    "email": "karan.test@example.com",
+    "message": "Testing.",
+    "read": false,
+    "createdAt": "2026-08-22T08:41:50.321Z"
+  },
+  {
+    "_id": "1787388096153",
+    "name": "Karan Test",
+    "email": "karan.test@example.com",
+    "message": "Testing.",
+    "read": false,
+    "createdAt": "2026-08-22T08:41:36.153Z"
+  },
+  {
+    "_id": "1787388082137",
+    "name": "Karan Test",
+    "email": "karan.test@example.com",
+    "message": "Testing button state.",
+    "read": false,
+    "createdAt": "2026-08-22T08:41:22.137Z"
+  },
+  {
+    "_id": "1787388067388",
+    "name": "Karan Test",
+    "email": "karan.test@example.com",
+    "message": "Testing the improved success message visibility.",
+    "read": false,
+    "createdAt": "2026-08-22T08:41:07.388Z"
+  },
+  {
+    "_id": "1787388015823",
+    "name": "Test User",
+    "email": "test@example.com",
+    "message": "This is a test message for debugging.",
+    "read": false,
+    "createdAt": "2026-08-22T08:40:15.823Z"
+  }
+]
