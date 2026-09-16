@@ -39,5 +39,5 @@ module.exports = {
   authFile: path.join(__dirname, 'data', 'auth.json'),
   allowedOrigins,
   useCloudinary,
-  cloudinaryFolder: process.env.CLOUDINARY_FOLDER || 'karan-portfolio',
+  cloudinaryFolder: process.env.CLOUDINARY_FOLDER || 'shreyansh-portfolio',
 };

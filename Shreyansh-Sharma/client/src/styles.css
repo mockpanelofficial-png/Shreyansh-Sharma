@@ -235,7 +235,7 @@ body{font-size:17px}.premium-nav .navlinks a{font-size:16px}.journey-intro{font-
 @media(max-width:400px){.card{padding:17px}.card-footer{flex-wrap:wrap;gap:8px}.card-footer small{flex:1 1 auto}}
 @media (hover:none){.card:hover{transform:none}.card:hover .category-icon{transform:none}.card:hover h3{background:none;-webkit-text-fill-color:initial;color:#f8fafc}[data-theme="light"] .card:hover h3{background:none;-webkit-text-fill-color:initial;color:#101828}.card:hover button span{box-shadow:none}}
 
-/* ==== Hero overflow fix (mobile) — keep "Karan Aggarwal" on one line, let heading wrap ==== */
+/* ==== Hero overflow fix (mobile) ==== */
 .hero h1.intro-title{white-space:normal}
 .hero h1.intro-title em{white-space:nowrap}
 .hero-role .typed-text{max-width:100%;white-space:normal}
