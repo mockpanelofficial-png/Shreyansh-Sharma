@@ -2,7 +2,7 @@
   "name": "shreyansh-sharma-render-wrapper",
   "private": true,
   "scripts": {
-    "postinstall": "npm --prefix Shreyansh-Sharma install --ignore-scripts && npm --prefix Shreyansh-Sharma/client install",
+    "postinstall": "npm --prefix Shreyansh-Sharma install --ignore-scripts && npm --prefix Shreyansh-Sharma/client install && npm --prefix Shreyansh-Sharma run build",
     "build": "npm --prefix Shreyansh-Sharma run build",
     "start": "npm --prefix Shreyansh-Sharma start"
   }
