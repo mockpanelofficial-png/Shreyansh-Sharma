@@ -8,9 +8,12 @@ In Render, add `MONGODB_URI` with the connection string from MongoDB Atlas. Keep
 
 ```env
 MONGODB_URI=mongodb+srv://mockpanelofficial_db_user:<db_password>@coachingdb.8voiwml.mongodb.net/CoachingDB?retryWrites=true&w=majority&appName=CoachingDB
+MONGODB_DB=ShreyanshSharma
 ```
 
 Replace `<db_password>` with the password for `mockpanelofficial_db_user`. Do not include the angle brackets, and URL-encode special characters in the password.
+
+The app always uses the `ShreyanshSharma` database name through `MONGODB_DB`, keeping its collections separate from other projects in the same Atlas project.
 
 Also configure `ADMIN_USERNAME`, `ADMIN_PASSWORD`, and `JWT_SECRET` in Render. Never commit the real connection string or database credentials.
 

@@ -11,7 +11,7 @@ const { connectDatabase } = require('../database/connection');
 const auth = require('./middleware/auth');
 const store = require('./store');
 const { getAdmin, setAdminPassword } = require('./adminStore');
-const { jwtSecret, useCloudinary, cloudinaryFolder, allowedOrigins } = require('./config');
+const { jwtSecret, databaseName, useCloudinary, cloudinaryFolder, allowedOrigins } = require('./config');
 const Message = require('./models/Message');
 
 const messagesFile = path.join(__dirname, 'data', 'messages.json');
@@ -274,7 +274,7 @@ app.use((err, req, res, next) => {
 async function start() {
   if (process.env.MONGODB_URI) {
     try {
-      await connectDatabase(process.env.MONGODB_URI);
+      await connectDatabase(process.env.MONGODB_URI, databaseName);
       store.setMongoReady(true);
       console.log('Connected to MongoDB');
     } catch (e) {

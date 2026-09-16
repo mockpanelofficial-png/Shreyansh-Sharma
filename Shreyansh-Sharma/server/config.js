@@ -38,6 +38,7 @@ module.exports = {
   jwtSecret: resolveJwtSecret(),
   authFile: path.join(__dirname, 'data', 'auth.json'),
   allowedOrigins,
+  databaseName: process.env.MONGODB_DB || 'ShreyanshSharma',
   useCloudinary,
   cloudinaryFolder: process.env.CLOUDINARY_FOLDER || 'shreyansh-portfolio',
 };
