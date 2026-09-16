@@ -7,8 +7,10 @@ The portfolio can use MongoDB Atlas for persistent content, admin credentials, a
 In Render, add `MONGODB_URI` with the connection string from MongoDB Atlas. Keep the username and password URL-encoded when they contain special characters.
 
 ```env
-MONGODB_URI=mongodb+srv://<database-user>:<database-password>@<cluster-host>/CoachingDB?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://mockpanelofficial_db_user:<db_password>@coachingdb.8voiwml.mongodb.net/CoachingDB?retryWrites=true&w=majority&appName=CoachingDB
 ```
+
+Replace `<db_password>` with the password for `mockpanelofficial_db_user`. Do not include the angle brackets, and URL-encode special characters in the password.
 
 Also configure `ADMIN_USERNAME`, `ADMIN_PASSWORD`, and `JWT_SECRET` in Render. Never commit the real connection string or database credentials.
 
