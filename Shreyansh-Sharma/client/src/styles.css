@@ -956,3 +956,17 @@ header.scrolled{background:rgba(10,20,36,.82);backdrop-filter:blur(20px);-webkit
 .social-link.primary{background:#22d3ee;color:#07101f;border-color:#22d3ee}
 .social-link.primary:hover{background:#67e8f9;color:#07101f}
 @media(max-width:600px){.social-actions{flex-direction:row!important;flex-wrap:wrap!important;justify-content:center!important;width:100%;margin-bottom:30px!important}.social-link{flex:1 1 auto;justify-content:center;min-width:0;padding-inline:10px;font-size:12px}}
+
+/* Final portfolio card system: equal frames, tactile depth, and one mobile column. */
+.cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+.card{height:340px;min-height:340px;padding:24px;display:flex;flex-direction:column;border-radius:22px;overflow:hidden;background:linear-gradient(145deg,#172844 0%,#0b1629 72%,#08101e 100%);border:1px solid #2b4867;box-shadow:0 2px 0 #3e668833 inset,0 12px 24px #0006,0 26px 58px #0004,0 0 0 1px #22d3ee0b;transform:translateY(0);transition:transform .28s cubic-bezier(.22,.7,.25,1),box-shadow .28s ease,border-color .28s ease}
+.card::after{content:"";position:absolute;inset:1px;border-radius:21px;background:linear-gradient(135deg,#ffffff0d,transparent 35%,#22d3ee08);pointer-events:none}
+.card:hover{transform:translateY(-8px) rotateX(1deg);border-color:#3dd7ec;box-shadow:0 3px 0 #67e8f955 inset,0 20px 36px #0008,0 34px 72px #0006,0 0 30px #22d3ee1c}
+.card h3,.card p,.card-footer{position:relative;z-index:1}
+.card h3{min-height:2.65em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-shadow:0 2px 10px #0008}
+.card p{min-height:5.1em;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-shadow:0 1px 8px #0005}
+.card-footer{margin-top:auto}
+.card-footer small{max-width:68%;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.menu-theme-toggle{display:none}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.cards{grid-template-columns:1fr;gap:18px}.card{height:320px;min-height:320px;padding:22px}.menu-theme-toggle{display:inline-flex;align-items:center;gap:8px;border:1px solid #2a5668;border-radius:999px;background:#111d33;color:#bceff7;padding:10px 14px;font-weight:800}.menu-theme-toggle svg{width:17px}.premium-nav .navlinks.open .menu-theme-toggle{margin-top:8px}}
