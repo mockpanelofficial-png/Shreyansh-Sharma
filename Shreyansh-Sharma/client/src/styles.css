@@ -983,3 +983,13 @@ header.scrolled{background:rgba(10,20,36,.82);backdrop-filter:blur(20px);-webkit
   .snapshot-cards .snap-card h3,.snapshot-cards .snap-card p,.features .feature h3,.features .feature p,.cards .card h3,.cards .card p,.cards .card small{position:relative;z-index:1;text-shadow:0 2px 10px #0009}
   .snapshot-cards .snap-card span,.features .feature label,.cards .card label{position:relative;z-index:1;text-shadow:0 1px 8px #0008}
 }
+
+@media(max-width:600px){
+  .snapshot-intro{display:block!important;margin-bottom:30px!important}
+  .snap-head-left,.snap-head-right{width:100%!important;max-width:100%!important}
+  .snap-head-left h2{font-size:clamp(28px,8vw,38px)!important;line-height:1.14!important;letter-spacing:-.025em!important;white-space:normal!important;overflow-wrap:normal!important;margin:14px 0 22px!important}
+  .snap-head-right{margin-top:0!important;padding-left:18px!important}
+  .snap-head-right .snapshot-lede{font-size:16px!important;line-height:1.7!important;margin:0 0 20px!important;max-width:none!important;white-space:normal!important;overflow-wrap:break-word!important}
+  .snapshot-chips{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important;margin:0!important;width:100%!important}
+  .snapshot-chips span{display:flex!important;align-items:center!important;justify-content:center!important;min-height:42px!important;padding:8px 10px!important;text-align:center!important;white-space:normal!important;line-height:1.25!important;overflow-wrap:normal!important;word-break:normal!important}
+}
