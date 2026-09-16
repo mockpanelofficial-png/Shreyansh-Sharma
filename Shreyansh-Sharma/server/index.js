@@ -7,6 +7,7 @@ const bcrypt = require('bcryptjs');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
+const { connectDatabase } = require('../database/connection');
 const auth = require('./middleware/auth');
 const store = require('./store');
 const { getAdmin, setAdminPassword } = require('./adminStore');
@@ -273,7 +274,7 @@ app.use((err, req, res, next) => {
 async function start() {
   if (process.env.MONGODB_URI) {
     try {
-      await mongoose.connect(process.env.MONGODB_URI);
+      await connectDatabase(process.env.MONGODB_URI);
       store.setMongoReady(true);
       console.log('Connected to MongoDB');
     } catch (e) {

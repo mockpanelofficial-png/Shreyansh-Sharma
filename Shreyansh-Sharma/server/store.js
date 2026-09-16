@@ -7,7 +7,7 @@ let mongoReady = false;
 const readSeed = () => JSON.parse(fs.readFileSync(file, 'utf8'));
 
 const normalize = (data) => {
-  data.site.linkedin ||= 'https://www.linkedin.com/in/karanaggarwal008/';
+  data.site.linkedin ||= 'https://www.linkedin.com/in/shreyansh-sharma';
   data.items = data.items.map((x) => ({
     ...x,
     customId: x.customId || x.id || String(Date.now() + Math.random()),
