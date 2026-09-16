@@ -1,7 +1,7 @@
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import{createRoot}from'react-dom/client';
 import{createPortal}from'react-dom';
-import{ArrowUpRight,X,Lock,Plus,Pencil,Trash2,LogOut,Upload,Save,ExternalLink,BookOpen,Trophy,BriefcaseBusiness,Users,Rocket,GraduationCap,Medal,FlaskConical,Lightbulb,BadgeCheck,HeartHandshake,Mail,Send,MapPin,Sun,Moon,Menu,Newspaper,Search,PenLine,ChevronDown,ChevronUp,ChevronLeft,ChevronRight,TrendingUp,Landmark,Wallet,Award,Network,Sparkles,Compass,LayoutDashboard,FileText,UserRound,Clock,ShieldCheck,Eye,Palette,Settings2}from'lucide-react';
+import{ArrowUpRight,X,Lock,Plus,Pencil,Trash2,LogOut,Upload,Save,ExternalLink,BookOpen,Trophy,BriefcaseBusiness,Users,Rocket,GraduationCap,Medal,FlaskConical,Lightbulb,BadgeCheck,HeartHandshake,Mail,Linkedin,Send,MapPin,Sun,Moon,Menu,Newspaper,Search,PenLine,ChevronDown,ChevronUp,ChevronLeft,ChevronRight,TrendingUp,Landmark,Wallet,Award,Network,Sparkles,Compass,LayoutDashboard,FileText,UserRound,Clock,ShieldCheck,Eye,Palette,Settings2}from'lucide-react';
 import'./styles.css';
 
 const api=async(path,options={})=>{const token=localStorage.getItem('ss-token');const r=await fetch('/api'+path,{...options,headers:{...(options.body instanceof FormData?{}:{'Content-Type':'application/json'}),...(token?{Authorization:'Bearer '+token}:{}),...options.headers}});const data=await r.json().catch(()=>({}));if(!r.ok)throw Error(data.message||'Request failed');return data};
@@ -43,7 +43,7 @@ function App(){
     <h1 className="intro-title">Hi, I'm <em>{s.name}</em></h1>
     <TypingRole roles={s.roles}/>
     <p className="journey-intro">{s.lede}</p>
-    <div className="actions"><a className="button" href="#work">Explore Portfolio ↓</a><a className="button ghost" href="#contact">Get In Touch</a>{s.pressUrl&&<a className="button ghost" href={s.pressUrl} target="_blank" rel="noopener noreferrer">Press Feature ↗</a>}</div>
+    <div className="actions social-actions"><a className="social-link" href={s.linkedin||'https://www.linkedin.com/in/doctor-sharma-junior/'} target="_blank" rel="noopener noreferrer"><Linkedin size={16}/> LinkedIn</a><a className="social-link" href={`mailto:${s.email}`}><Mail size={16}/> Email</a><a className="social-link primary" href="#contact">Get In Touch <ArrowUpRight size={16}/></a></div>
     <div className="hero-timeline">{data.timeline.map((x,i)=><article key={i}><div className="hero-year">{x.date}</div><div><h3>{x.title}</h3><p>{x.text}</p></div></article>)}</div>
   </div>
   <aside className="profile">
